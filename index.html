@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Malt Shop | Classic Burgers &amp; Malts in Ephraim, Utah</title>
+  <meta name="description" content="The Malt Shop is Ephraim's classic hometown diner on Main Street — juicy burgers, hand-spun malts and shakes, crispy sides and old-fashioned charm. 4.5 stars from 1,000+ Google reviews.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23c8102e'/%3E%3Ccircle cx='32' cy='32' r='23' fill='%23fff6e9'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='24' font-weight='bold' text-anchor='middle' fill='%23c8102e'%3EMS%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Pacifico&family=Nunito+Sans:ital,opsz,wght@0,6..12,400..900;1,6..12,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ======= SVG sprite ======= -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <defs>
+    <clipPath id="halfclip"><rect x="0" y="0" width="12" height="24"/></clipPath>
+  </defs>
+
+  <symbol id="i-star" viewBox="0 0 24 24">
+    <path d="M12 1.8l3.1 6.5 7.1.9-5.2 4.9 1.3 7-6.3-3.4-6.3 3.4 1.3-7L2 9.2l7.1-.9z"/>
+  </symbol>
+
+  <symbol id="i-star-half" viewBox="0 0 24 24">
+    <path d="M12 1.8l3.1 6.5 7.1.9-5.2 4.9 1.3 7-6.3-3.4-6.3 3.4 1.3-7L2 9.2l7.1-.9z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+    <path d="M12 1.8l3.1 6.5 7.1.9-5.2 4.9 1.3 7-6.3-3.4-6.3 3.4 1.3-7L2 9.2l7.1-.9z" clip-path="url(#halfclip)"/>
+  </symbol>
+
+  <symbol id="i-pin" viewBox="0 0 24 24">
+    <path d="M12 2c-4 0-7.2 3.2-7.2 7.2 0 5.2 7.2 12.8 7.2 12.8s7.2-7.6 7.2-12.8C19.2 5.2 16 2 12 2zm0 9.8a2.7 2.7 0 110-5.4 2.7 2.7 0 010 5.4z"/>
+  </symbol>
+
+  <symbol id="i-phone" viewBox="0 0 24 24">
+    <path d="M20.5 15.5l-3.2-1.4a1.2 1.2 0 00-1.4.3l-1.3 1.6a14.4 14.4 0 01-6.6-6.6l1.6-1.3c.4-.4.6-1 .3-1.4L8.5 3.5A1.2 1.2 0 007.1 3L4 3.8A1.2 1.2 0 003.2 5c.4 8.7 7.1 15.4 15.8 15.8.6 0 1.1-.4 1.2-1l.8-3.1a1.2 1.2 0 00-.5-1.2z"/>
+  </symbol>
+
+  <symbol id="i-clock" viewBox="0 0 24 24">
+    <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 18a8 8 0 110-16 8 8 0 010 16zm.9-13h-1.8v5.6l4.4 2.7.9-1.5-3.5-2.1z"/>
+  </symbol>
+
+  <symbol id="i-fb" viewBox="0 0 24 24">
+    <path d="M13.5 21v-7.6h2.6l.4-3h-3V8.5c0-.9.3-1.5 1.6-1.5h1.5V4.3c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.7V21h2.8z"/>
+  </symbol>
+
+  <symbol id="i-arrow" viewBox="0 0 24 24">
+    <path d="M4.5 12h13m-5.5-6.5L18.5 12 12 18.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="i-check" viewBox="0 0 24 24">
+    <path d="M9.6 16.6L5 12l-1.4 1.4 6 6 12-12L20.2 6z"/>
+  </symbol>
+
+  <symbol id="i-ms" viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="58" fill="#c8102e"/>
+    <circle cx="60" cy="60" r="51" fill="none" stroke="#fff6e9" stroke-width="2.2" stroke-dasharray="0.5 7" stroke-linecap="round"/>
+    <circle cx="60" cy="60" r="43" fill="#fff6e9"/>
+    <path d="M44 46l1.6 3.4 3.6.4-2.6 2.4.7 3.6-3.3-1.8-3.3 1.8.7-3.6-2.6-2.4 3.6-.4z" fill="#e9b44c"/>
+    <path d="M76 46l1.6 3.4 3.6.4-2.6 2.4.7 3.6-3.3-1.8-3.3 1.8.7-3.6-2.6-2.4 3.6-.4z" fill="#e9b44c"/>
+    <text x="60" y="74" font-family="Alfa Slab One, Rockwell, Georgia, serif" font-size="40" text-anchor="middle" fill="#c8102e">MS</text>
+    <text x="60" y="93" font-family="Nunito Sans, Segoe UI, sans-serif" font-size="9.5" font-weight="800" letter-spacing="2" text-anchor="middle" fill="#8b5e3c">EPHRAIM&#160;&#183;&#160;UT</text>
+  </symbol>
+
+  <symbol id="i-burger" viewBox="0 0 64 64">
+    <path d="M32 6C19 6 9 14 9 25v3h46v-3C55 14 45 6 32 6z" fill="#d9a05b"/>
+    <circle cx="23" cy="17" r="1.7" fill="#fff6e9"/>
+    <circle cx="32" cy="14" r="1.7" fill="#fff6e9"/>
+    <circle cx="41" cy="17" r="1.7" fill="#fff6e9"/>
+    <path d="M7 33h50v3q-4.2 4.5-8.4 0-4.2 4.5-8.3 0-4.2 4.5-8.3 0-4.2 4.5-8.3 0-4.2 4.5-8.3 0-4.2 4.5-8.4 0z" fill="#7ca854"/>
+    <path d="M11 40h42l-5 6.5H16z" fill="#e9b44c"/>
+    <rect x="9" y="44" width="46" height="8" rx="4" fill="#8b5e3c"/>
+    <path d="M10 54h44v1c0 3.9-3.1 7-7 7H17c-3.9 0-7-3.1-7-7v-1z" fill="#d9a05b"/>
+  </symbol>
+
+  <symbol id="i-shake" viewBox="0 0 64 64">
+    <path d="M45 1l7 15-3.6 1.7-6.9-14z" fill="#e9b44c"/>
+    <path d="M32 3.6c0-1.6.9-2.6 2.6-3.1-.4 1.8-.9 2.6-2.6 3.1z" fill="#7ca854"/>
+    <circle cx="32" cy="9" r="3.6" fill="#c8102e"/>
+    <path d="M17 22c0-4 4-6 7-6 .5-3 4-5 8-5s7.5 2 8 5c3 0 7 2 7 6v3H17v-3z" fill="#fffdf8"/>
+    <path d="M18 25h28l-4.6 33a6 6 0 01-6 5.2h-6.8a6 6 0 01-6-5.2L18 25z" fill="#fdeed7"/>
+    <path d="M22.5 31h19l-3.6 25.6a4.2 4.2 0 01-4.2 3.6h-3.4a4.2 4.2 0 01-4.2-3.6L22.5 31z" fill="#c8102e"/>
+  </symbol>
+
+  <symbol id="i-fries" viewBox="0 0 64 64">
+    <rect x="20" y="7" width="6" height="25" rx="2.5" fill="#e9b44c" transform="rotate(-9 23 19)"/>
+    <rect x="38" y="7" width="6" height="25" rx="2.5" fill="#e9b44c" transform="rotate(9 41 19)"/>
+    <rect x="25" y="4" width="6" height="28" rx="2.5" fill="#f0c36b"/>
+    <rect x="33" y="6" width="6" height="26" rx="2.5" fill="#d9a05b"/>
+    <path d="M15 27h34l-4 31.5c-.3 2.7-2.6 4.5-5.3 4.5H24.3c-2.7 0-5-1.8-5.3-4.5L15 27z" fill="#c8102e"/>
+    <path d="M20 44c2.5-6 6.5-9 12-9s9.5 3 12 9v4c-7.7-3.3-16.3-3.3-24 0v-4z" fill="#fff6e9" opacity="0.92"/>
+  </symbol>
+
+  <symbol id="i-sundae" viewBox="0 0 64 64">
+    <rect x="41" y="6" width="4.6" height="17" rx="2.2" fill="#d9a05b" transform="rotate(24 43 14)"/>
+    <path d="M18 27c3-6 9-8 14-5s11 1 14-5" stroke="#e9b44c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="32" cy="12" r="3.6" fill="#c8102e"/>
+    <circle cx="25" cy="24" r="8.5" fill="#fffdf8"/>
+    <circle cx="39" cy="24" r="8.5" fill="#f4d7db"/>
+    <path d="M13 32h38c0 10-8 16-19 16s-19-6-19-16z" fill="#fdeed7"/>
+    <rect x="30" y="48" width="4" height="8" fill="#fdeed7"/>
+    <rect x="21" y="56" width="22" height="4" rx="2" fill="#fdeed7"/>
+  </symbol>
+</svg>
+
+<!-- ======= Top bar ======= -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span class="topbar-item">
+      <svg><use href="#i-pin"/></svg>
+      150 N Main St, Ephraim, UT 84627
+    </span>
+    <a class="topbar-item" href="tel:+14352834101">
+      <svg><use href="#i-phone"/></svg>
+      (435) 283-4101
+    </a>
+    <a class="topbar-item" href="https://www.facebook.com/The-Malt-Shop-116385388382119/" target="_blank" rel="noopener">
+      <svg><use href="#i-fb"/></svg>
+      Follow us on Facebook
+    </a>
+  </div>
+</div>
+
+<!-- ======= Header ======= -->
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="The Malt Shop home">
+      <svg class="brand-badge" aria-hidden="true"><use href="#i-ms"/></svg>
+      <span class="brand-text">
+        <span class="brand-name">The Malt Shop</span>
+        <span class="brand-tag">Burgers &#183; Malts &#183; Memories</span>
+      </span>
+    </a>
+
+    <input type="checkbox" id="navtoggle" class="nav-toggle-input" aria-label="Toggle navigation menu">
+    <label for="navtoggle" class="nav-toggle" aria-hidden="true"><span></span></label>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">Our Story</a>
+      <a href="contact.html">Visit Us</a>
+      <a href="https://www.facebook.com/The-Malt-Shop-116385388382119/" target="_blank" rel="noopener" class="btn btn-primary nav-cta">
+        <svg><use href="#i-fb"/></svg>
+        Facebook
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- ======= Hero ======= -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="kicker">Welcome to</span>
+      <h1>The Malt <span class="accent">Shop</span></h1>
+      <p class="hero-lede">
+        Ephraim's hometown diner on Main Street — where the burgers are juicy,
+        the malts are spun thick, and every booth feels like a step back in time.
+      </p>
+      <div class="hero-actions">
+        <a href="about.html" class="btn btn-primary btn-lg">
+          Read Our Story
+          <svg><use href="#i-arrow"/></svg>
+        </a>
+        <a href="https://maps.app.goo.gl/dJHNhLbVZCBmWqb7A" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">
+          <svg><use href="#i-pin"/></svg>
+          Get Directions
+        </a>
+      </div>
+      <div class="rating-card">
+        <span class="stars" aria-label="4.5 out of 5 stars">
+          <svg><use href="#i-star"/></svg>
+          <svg><use href="#i-star"/></svg>
+          <svg><use href="#i-star"/></svg>
+          <svg><use href="#i-star"/></svg>
+          <svg><use href="#i-star-half"/></svg>
+        </span>
+        <span class="rating-copy">
+          <strong>4.5 stars</strong>
+          <span>1,000+ Google reviews</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="sticker floaty">
+        <span class="sticker-text">A LOCAL<br>FAVORITE</span>
+      </div>
+      <img class="hero-img-main" src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/be641bda1b6c.jpg" alt="Two thick chocolate malts topped with whipped cream in retro diner glasses">
+      <img class="hero-img-float top-left" src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/72a685b08aa7.jpg" alt="A juicy made-to-order burger stacked with fresh toppings">
+      <img class="hero-img-float bottom-right" src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0e691968b282.jpg" alt="Ice cream sundaes topped with whipped cream and cherries">
+    </div>
+  </div>
+</section>
+
+<div class="scallop" aria-hidden="true"></div>
+
+<!-- ======= What we dish up ======= -->
+<section class="section features">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Straight from the fountain</span>
+      <h2>What We're Dishing Up</h2>
+      <p>Burgers, sandwiches, fries, shakes, malts, sundaes, salads — the options are endless! No printed menu here, just come on in and see what today's craving calls for.</p>
+    </div>
+    <div class="grid">
+      <article class="feature-card">
+        <div class="feature-icon">
+          <svg aria-hidden="true"><use href="#i-burger"/></svg>
+        </div>
+        <h3>Burgers &amp; Sandwiches</h3>
+        <p>Juicy, made-to-order burgers piled high with the fixings — plus hearty sandwiches the regulars swear by.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon">
+          <svg aria-hidden="true"><use href="#i-shake"/></svg>
+        </div>
+        <h3>Malts &amp; Shakes</h3>
+        <p>Old-school malts spun thick and shakes topped high. Reviewers have called them simply "heavenly."</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon">
+          <svg aria-hidden="true"><use href="#i-fries"/></svg>
+        </div>
+        <h3>Golden Sides</h3>
+        <p>Hot fries, crispy onion rings and corn dogs — straight from the fryer and straight to your booth.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon">
+          <svg aria-hidden="true"><use href="#i-sundae"/></svg>
+        </div>
+        <h3>Sundaes &amp; Sweet Treats</h3>
+        <p>Ice cream classics and sundaes with all the toppings — the perfect finish to every visit.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Step inside ======= -->
+<section class="section">
+  <div class="container split">
+    <figure class="split-figure">
+      <img src="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/03d252e75e9a.jpg" alt="Retro diner interior with red chairs and checkered floor">
+    </figure>
+    <div class="split-copy">
+      <span class="kicker">Step inside</span>
+      <h2>A Little Time Machine on Main Street</h2>
+      <p>
+        Walk in and you'll get it right away: Coca-Cola memorabilia on the walls,
+        a cozy old-time diner vibe, and the smell of the grill doing the rest.
+        It's the kind of place where the staff remembers your order and nobody
+        rushes your milkshake.
+      </p>
+      <p>
+        Folks from Ephraim, Snow College and every road trip through Sanpete County
+        pull up a chair — some for the food, some for the nostalgia, most for both.
+      </p>
+      <div class="chip-row">
+        <span class="chip"><svg><use href="#i-check"/></svg>Old-time diner vibe</span>
+        <span class="chip"><svg><use href="#i-check"/></svg>Coca-Cola memorabilia</span>
+        <span class="chip"><svg><use href="#i-check"/></svg>Family friendly</span>
+        <span class="chip"><svg><use href="#i-check"/></svg>Takeout available</span>
+      </div>
+      <a href="about.html" class="btn btn-wood">
+        Learn Our Story
+        <svg><use href="#i-arrow"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Happy hour ribbon ======= -->
+<div class="happy-hour">
+  <div class="container happy-hour-inner">
+    <svg aria-hidden="true"><use href="#i-shake"/></svg>
+    <span class="script">Happy Hour!</span>
+    <span>Monday&ndash;Thursday, 2&ndash;5 PM &mdash; treat yourself on your afternoon break.</span>
+  </div>
+</div>
+
+<!-- ======= Stats ======= -->
+<section class="stats-band">
+  <div class="container stats-grid">
+    <div>
+      <div class="stat-num">4.5&#9733;</div>
+      <div class="stat-label">Average Google rating</div>
+    </div>
+    <div>
+      <div class="stat-num">1,000+</div>
+      <div class="stat-label">Google reviews and counting</div>
+    </div>
+    <div>
+      <div class="stat-num">94%</div>
+      <div class="stat-label">Recommend us on Facebook</div>
+    </div>
+    <div>
+      <div class="stat-num">890+</div>
+      <div class="stat-label">Facebook check-ins</div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Testimonials ======= -->
+<section class="section testimonials">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Word around the counter</span>
+      <h2>What Folks Are Saying</h2>
+      <p>Real words from real reviews — the kind that keep our booths full.</p>
+    </div>
+    <div class="grid">
+      <article class="quote-card">
+        <span class="stars" aria-label="5 stars">
+          <svg><use href="#i-star"/></svg>
+          <svg><use href="#i-star"/></svg>
+          <svg><use href="#i-star"/></svg>
+          <svg><use href="#i-star"/></svg>
+          <svg><use href="#i-star"/></svg>
+        </span>
+        <p>"A cute, fun place to eat, or even just get ice cream! Coca-Cola memorabilia everywhere, diner feel to it, and great burgers and fried things!"</p>
+        <div class="quote-meta">
+          <span class="quote-source">Google review</span>
+          <span class="stars">
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+          </span>
+        </div>
+      </article>
+      <article class="quote-card">
+        <p>"The atmosphere was extremely fun. It had an old-time diner vibe."</p>
+        <div class="quote-meta">
+          <span class="quote-source">Yelp review</span>
+          <span class="stars">
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+          </span>
+        </div>
+      </article>
+      <article class="quote-card">
+        <p>"Excellent service, price, and quality."</p>
+        <div class="quote-meta">
+          <span class="quote-source">Google review</span>
+          <span class="stars">
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+            <svg><use href="#i-star"/></svg>
+          </span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======= CTA ======= -->
+<section class="cta-band">
+  <div class="container">
+    <h2>Hungry Yet? Slide Into a Booth.</h2>
+    <p>Call ahead for takeout, swing by Main Street, or say hi on Facebook.</p>
+    <div class="cta-actions">
+      <a href="tel:+14352834101" class="btn btn-cream btn-lg">
+        <svg><use href="#i-phone"/></svg>
+        (435) 283-4101
+      </a>
+      <a href="https://maps.app.goo.gl/dJHNhLbVZCBmWqb7A" target="_blank" rel="noopener" class="btn btn-cream btn-lg">
+        <svg><use href="#i-pin"/></svg>
+        Get Directions
+      </a>
+      <a href="https://www.facebook.com/The-Malt-Shop-116385388382119/" target="_blank" rel="noopener" class="btn btn-cream btn-lg">
+        <svg><use href="#i-fb"/></svg>
+        Follow on Facebook
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="scallop cream-on-red flip" aria-hidden="true"></div>
+
+<!-- ======= Footer ======= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <svg class="brand-badge" aria-hidden="true"><use href="#i-ms"/></svg>
+          <span class="brand-text">
+            <span class="brand-name" style="color: var(--cream);">The Malt Shop</span>
+            <span class="brand-tag">Burgers &#183; Malts &#183; Memories</span>
+          </span>
+        </a>
+        <p>
+          A longstanding staple on Main Street in Ephraim, Utah — serving classic
+          burgers, hand-spun malts and old-fashioned soda-fountain charm to
+          Sanpete County.
+        </p>
+        <div class="footer-social">
+          <a class="social-btn" href="https://www.facebook.com/The-Malt-Shop-116385388382119/" target="_blank" rel="noopener" aria-label="The Malt Shop on Facebook">
+            <svg><use href="#i-fb"/></svg>
+          </a>
+          <a class="social-btn" href="https://maps.app.goo.gl/dJHNhLbVZCBmWqb7A" target="_blank" rel="noopener" aria-label="The Malt Shop on Google Maps">
+            <svg><use href="#i-pin"/></svg>
+          </a>
+          <a class="social-btn" href="tel:+14352834101" aria-label="Call The Malt Shop">
+            <svg><use href="#i-phone"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Visit Us</a></li>
+          <li><a href="https://www.facebook.com/The-Malt-Shop-116385388382119/" target="_blank" rel="noopener">Facebook Page</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit Us</h4>
+        <ul class="footer-contact">
+          <li>
+            <svg><use href="#i-pin"/></svg>
+            <span>150 N Main St<br>Ephraim, UT 84627</span>
+          </li>
+          <li>
+            <svg><use href="#i-phone"/></svg>
+            <a href="tel:+14352834101">(435) 283-4101</a>
+          </li>
+          <li>
+            <svg><use href="#i-clock"/></svg>
+            <span>Mon&ndash;Sat from 11 AM<br>Sundays closed</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul class="footer-hours">
+          <li><span>Mon &ndash; Thu</span><span>11 AM &ndash; 8 PM</span></li>
+          <li><span>Fri &ndash; Sat</span><span>11 AM &ndash; 9 PM</span></li>
+          <li><span class="closed">Sunday</span><span class="closed">Closed</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 The Malt Shop &#183; Ephraim, Utah</span>
+      <span>Photos shown are representative of classic American diner fare.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
